@@ -1,0 +1,348 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f2f2f2;
+  background-image: url('../img/background/home-background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: fit-content;
+}
+h1,
+h2,
+p {
+  color: #f2f2f2;
+}
+#nav {
+  background-color: transparent !important;
+  padding: 20px;
+  margin-bottom: 0px !important;
+  border: none !important;
+}
+#nav .navbar-brand {
+  padding: 0 20px !important;
+  margin-right: 20px;
+}
+
+#nav .navbar-brand > img {
+  display: block;
+  height: 50px;
+  width: 100px;
+}
+#nav .container-fluid {
+  display: flex;
+}
+#nav .container-fluid ul {
+  display: inline-flex;
+}
+#nav .container-fluid ul li {
+  padding: 0 10px;
+  list-style-type: none;
+}
+#nav .container-fluid ul li a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#nav .container-fluid ul li a:hover {
+  cursor: pointer;
+  color: #000000;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+}
+#nav .container-fluid ul li a:active {
+  cursor: pointer;
+  color: #000000;
+  background-color: #f2f2f2;
+  opacity: 0.5;
+  border-radius: 25px;
+}
+#container {
+  padding: 0px !important;
+}
+#container h1,
+#container h2 {
+  color: #f2f2f2;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+#container .jumbotron,
+footer .jumbotron {
+  background-color: transparent;
+}
+#home {
+  height: 500px;
+}
+#home .jumbotron {
+  margin-top: 5%;
+}
+#about .details {
+  padding: 0px !important;
+}
+#skills .jumbotron {
+  padding-top: 0% !important;
+}
+#skills .skill-name {
+  height: auto;
+  padding: 20px;
+}
+#skills .skill-name img {
+  width: 60%;
+  height: auto;
+}
+#about,
+#skills {
+  background-color: #f2f2f2;
+}
+#skills .skill-name:hover {
+  transform: scale(1.5);
+  cursor: pointer;
+  font-weight: 600;
+  padding: 20px;
+}
+#skills .desc {
+  color: #000000;
+}
+#about h2 {
+  color: #000000;
+  font-weight: 600;
+}
+#about p {
+  color: #000000;
+}
+#work h2 {
+  font-weight: 600;
+}
+
+#work .experience {
+  box-shadow: 0 4px 8px 0 #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+  color: #000000;
+  border-radius: 25px;
+}
+#work .experience:hover {
+  cursor: pointer;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 #000000;
+  background-color: #000000;
+  color: #f2f2f2;
+  border-radius: 50px 20px;
+}
+#work {
+  padding-bottom: 20px;
+  height: 400px;
+}
+footer {
+  background-color: #000000;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+}
+footer p,
+footer a {
+  color: #f2f2f2;
+  margin: 5px;
+}
+footer a:hover {
+  text-decoration: none;
+}
+footer a:active {
+  text-decoration: none;
+}
+.row {
+  margin: 0px !important;
+}
+/*nav {
+  overflow: hidden;
+  background-color: #000000;
+  padding: 20px;
+  height: 50px;
+  display: flex;
+}
+nav ul {
+  display: inline-flex;
+}
+nav ul li {
+  padding: 0 20px;
+  list-style-type: none;
+}
+nav ul li a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+nav ul li a:hover {
+  cursor: pointer;
+  color: #000000;
+  background-color: #f2f2f2;
+}
+nav ul li a:active {
+  cursor: pointer;
+  color: #000000;
+  background-color: #f2f2f2;
+}
+nav img {
+  height: 50px;
+  width: 100px;
+}*/
+/*
+h1,
+h2 {
+  color: #f2f2f2;
+  font-weight: normal;
+}
+h1 {
+  font-size: 40px;
+}
+.container {
+  display: none;
+  background-color: #000000;
+}
+#content {
+  background-color: #f2f2f2;
+  display: block;
+  flex-basis: 0;
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+#content .content-title {
+  text-align: center;
+  padding-top: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#content .content-justify {
+  justify-content: center;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: center;
+}
+#content .home {
+  background-image: url('../img/background/home-background.png');
+  background-color: #f2f2f2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: 500px;
+}
+
+#content .home .text {
+  float: right;
+  width: 65%;
+  margin-top: 10%;
+}
+#content .home .text h2 {
+  padding: 0.75rem;
+}
+
+#content .about {
+  background-color: #f2f2f2;
+  height: 250px;
+  color: #000000;
+  background-size: cover;
+  padding: 0 20px;
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+
+#content .skills {
+  background-color: #000000;
+  height: 350px;
+  color: #f2f2f2;
+  padding: 0 20px;
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+
+#content .skills .skills-list {
+  display: flex;
+  margin: 20px;
+}
+#content .skills .skills-list {
+  display: flex;
+}
+#content .skills .skills-list .skill {
+  padding: 10px;
+  margin: 0 10px;
+}
+#content .skills .skills-list .skill:hover {
+  transform: scale(1.5);
+}
+#content .skills .skills-list .skill img {
+  width: 100%;
+  height: auto;
+}
+
+#content .skills .skills-list .skill .desc {
+  padding: 15px;
+  text-align: center;
+  font-size: 17px;
+  text-transform: capitalize;
+}
+
+#content .work {
+  background-color: #f2f2f2;
+  color: #000000 !important;
+  padding: 0 20px;
+  height: 350px;
+}
+
+#content .work .experience {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  background-color: #f1f1f1;
+  width: 200px;
+  color: #000000;
+}
+#content .work .experience:hover {
+  transform: scale(1.5);
+  padding: 20px;
+  margin-top: 10%;
+}
+footer {
+  background-color: #000000;
+  height: 30px;
+  padding: 20px;
+  display: none;
+}
+#content .about h1,
+#content .work h1 {
+  color: #000000 !important;
+}
+footer p,
+footer a {
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+}
+#content .work .column {
+  display: inline-flex;
+}
+
+#content .work .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+#content .work .row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+*/
